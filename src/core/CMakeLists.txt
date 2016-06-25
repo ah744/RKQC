@@ -14,7 +14,6 @@ set( core_SRCS
   io/read_specification.cpp
   io/read_pattern.cpp
   io/read_pla.cpp
-  io/read_pla_to_bdd.cpp
   io/revlib_parser.cpp
   io/revlib_processor.cpp
   io/write_blif.cpp
@@ -66,7 +65,6 @@ set( INSTALL_HEADERS_IO
   io/read_specification.hpp
   io/read_pattern.hpp
   io/read_pla.hpp
-  io/read_pla_to_bdd.hpp
   io/revlib_parser.hpp
   io/revlib_processor.hpp
   io/write_blif.hpp

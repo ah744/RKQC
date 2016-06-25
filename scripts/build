@@ -51,12 +51,7 @@ function call_make(){
 	cd $BUILD_DIR &&
 	cmake $@ $SRC_DIR &&
 	make -j3 &&
-	cd $ROOT_DIR &&
-	echo "creating symlinks" &&
-	create_symlink $BUILD_DIR/bindings/revkit_python.so &&
-	create_symlink $SRC_DIR/bindings/revkit.py &&
-	create_symlink $SRC_DIR/bindings/revkitui.py &&
-	create_symlink $SRC_DIR/bindings/revkitmath.py
+	cd $ROOT_DIR
 }
 
 function create_symlink(){
@@ -104,4 +99,11 @@ else
 	fi
     fi
 fi
+
+rm revkit.py
+rm revkit_python.so
+rm revkitmath.py
+rm revkitui.py
+
+
 #quote_error

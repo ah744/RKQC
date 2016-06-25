@@ -478,7 +478,7 @@ boost::range_iterator<boost::range_detail::select_first_range<bus_collection::ma
   using boost::adaptors::map_keys;
   using boost::begin;
 
-  return begin( b.buses() | map_keys );
+  return boost::begin( b.buses() | map_keys );
 }
 
 boost::range_iterator<boost::range_detail::select_first_range<bus_collection::map> >::type bus_collection_names_end( const bus_collection& b )
@@ -486,7 +486,7 @@ boost::range_iterator<boost::range_detail::select_first_range<bus_collection::ma
   using boost::adaptors::map_keys;
   using boost::end;
 
-  return end( b.buses() | map_keys );
+  return boost::end( b.buses() | map_keys );
 }
 
 object bus_collection_get( const bus_collection& b, const std::string& name )
