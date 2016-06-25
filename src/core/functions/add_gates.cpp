@@ -495,7 +495,6 @@ namespace revkit
     int j;
     
     for(j = 0; j < size - 1; j++){
-        std::cout << "j - " << j << std::endl;
         for(i=1; i < size-j; i++){
             toffoli ( b[j], a[size-i], c[size-i-j] );
             toffoli ( b[j], a[size-i-1], a[size-i] );

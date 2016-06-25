@@ -1,4 +1,4 @@
-In file included from /Users/Adam/Documents/Research/RKQC/src/examples/e001_hello_world.cpp:20:
+In file included from /Users/Adam/Documents/Research/RKQC/src/examples/e007_multiplier.cpp:20:
 In file included from /Users/Adam/Documents/Research/RKQC/src/core/circuit.hpp:43:
 /usr/local/include/boost/signal.hpp:17:4: warning: "Boost.Signals is no longer being maintained and is now deprecated. Please switch to Boost.Signals2. To disable this warning message, define BOOST_SIGNALS_NO_DEPRECATION_WARNING." [-W#warnings]
 #  warning                  "Boost.Signals is no longer being maintained and is now deprecated. Please switch to Boost.Signals2. To disable this warning message, define BOOST_SIGNALS_NO_DEPRECATION_WARNING."
